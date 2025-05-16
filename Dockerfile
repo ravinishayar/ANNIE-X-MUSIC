@@ -9,7 +9,7 @@ COPY . /app/
 WORKDIR /app/
 
 RUN pip3 install --no-cache-dir --upgrade pip
-
+RUN apt-get update && apt-get install -y ffmpeg
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 
 CMD bash start
