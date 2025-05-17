@@ -2,7 +2,6 @@ aiofiles
 aiohttp
 apscheduler
 asyncio
-bard
 beautifulsoup4
 bs4
 bing_image_downloader
@@ -28,7 +27,7 @@ instaloader
 langdetect
 googletrans==4.0.0-rc1
 lexica-api
-motor 
+motor
 numpy
 nest_asyncio
 nekosbest
@@ -62,6 +61,6 @@ telegraph
 tgcrypto
 unidecode
 wget
-yt-dlp
+yt-dlp>=2024.4.9
 youtube-search
 youtube-search-python
